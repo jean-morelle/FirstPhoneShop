@@ -12,7 +12,7 @@ namespace FirstPhoneShop.Controllers
         {
             this.clientRepository = clientRepository;
         }
-        // GET: ClientController
+        // GET: Client Controller
         public ActionResult Index()
         {
          var clients = clientRepository.RetourneClients();
